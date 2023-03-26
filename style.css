@@ -1,0 +1,366 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: black;
+    font-family: Arial, Helvetica;
+}
+.main{
+    background-image: url(background.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.nav{
+ margin-left: 50%;
+}
+.nav-child{
+    display: inline;
+    margin-left: 15px;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.nav-down{
+    display: inline;
+}
+.nav-img{
+    background-image: url(pic.png);
+    background-size: 100% 100%;
+    height: 600px;
+    width: 820px;
+    position: relative;
+    bottom: 23px;
+}
+.div-box{
+width: 450px;
+height: 450px;
+background-color: white;
+position: relative;
+left: 60%;
+bottom: 530px;
+opacity: 1.7;
+border: 2px solid white ;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+
+
+}
+
+    .box-write{
+        width: 80%;
+        height: 70%;
+        position: relative;
+        top: 70px;
+        left: 40px;
+        
+        
+    }
+    #btn1{
+        background-color: rgb(73, 73, 254);
+        font-size: 15px;
+        padding: 8px;
+        border: none;
+        border-radius: 2px;
+        color: white;
+        margin-left: 10px;
+    }
+    h1,h2,h3,h4,h5{
+        color: black;
+    }
+
+ .sec-main{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 35px;
+    
+ }   
+ .part-div{
+    float: left;
+height: 170px;
+width: 33.2%;
+border-left: 1px solid black ;
+ }
+ .pic2{
+    height: 70px;
+    margin-left: 50px;
+    position: relative;
+    top: 30px;
+ }
+ .sec-part{
+    width: 60%;
+    position: relative;
+    left: 30%;
+    bottom: 50px;
+}
+
+.back3{
+    background-image:url(back1.jpg);
+    height: 900px;
+    width: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    top: 50px;
+    opacity: 0.2;
+    z-index: -1;
+}
+.box-one{
+    float: left;
+    width: 30%;
+    height: 700px;
+    position: absolute;
+    top: 990px;
+    left: 10%;
+    
+}
+.box-two{
+    display: flex;
+    float: right;
+    width: 39%;
+    height: 700px;
+    position: relative;
+    right: 180px;
+    bottom: 730px;
+    flex-wrap: wrap;
+
+}
+.box-four{
+    
+    width: 250px;
+    height: 300px;
+    margin-right: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1, 1)
+}
+.box-part-one{
+    width: 70%;
+    margin-left: 10%;
+    position: relative;
+    bottom: 15px;
+}
+.teen{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    left: 30px;
+    font-weight: 700;
+}
+.learn{
+    position: relative;
+    top: 10px;
+    left: 27px;
+    color: blue;
+}
+
+
+.fast{
+    background-color: rgb(186, 220, 249);
+    width: 100%;
+    height: 700px;
+}
+.sam{
+   margin-left: 45%;
+   position: relative;
+   top: 40px;
+}
+.how{
+    margin-left: 42%;
+   position: relative;
+   top: 40px;
+}
+.lim{
+    text-align: center;
+    margin-left: 34%;
+    position: relative;
+   top: 50px;
+}
+.fast-img1{
+    background-image: url(fast1.jpg);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 200px;
+    position: relative;
+    top: 120px;
+    margin-left: 15%;
+    border-radius: 3px;
+
+}
+.fast-img1-w{
+    margin-left: 20px;
+    position: relative;
+    top: 30px;
+    
+}
+.fast-img2{
+    background-image: url(fast2.jpg);
+    background-size: 100% 100%;
+    width: 70%;
+    height: 200px;
+    position: relative;
+    top: 150px;
+    margin-left: 15%;
+    border-radius: 3px;
+
+}
+.fast-img1-w1{
+    margin-left: 20px;
+    position: relative;
+    top: 30px;
+}
+.box-book{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(186, 188, 183);
+}
+.book{
+    width: 70%;
+    height: 300px;
+    margin-left: 15%;
+    position: relative;
+    top: 70px;
+    display: flex;
+
+}
+.bookimg{
+    width: 250px;
+    height: 310px;
+}
+.book-write{
+    width: 70%;
+    position: relative;
+    margin-left: 50px;
+    top: 50px;
+}
+.cup{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.cup-part{
+    width: 48%;
+    height: 700px;
+}
+.cupimg{
+width: 100%;
+height: 700px;
+}
+.cup-wr{
+    width: 70%;
+    position: relative;
+    top: 130px;
+    margin-left: 20%;
+}
+.writecup{
+    color: rgb(79, 107, 107);
+    font-size: 20px;
+}
+.sedulde{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(186, 220, 249);
+    display: flex;
+}
+.sedulde-box{
+    width: 60%;
+
+}
+.sedulde-box1{
+    width: 20%;
+}
+.sed{
+    position: relative;
+    top: 70px;
+    margin-left: 200px;
+}
+.btnse{
+    position: relative;
+    top: 140px;
+    margin-left: 90px;
+}
+.clint{
+    width: 100%;
+    height: 600px;
+    background-image: url(clint.jpg);
+    background-size: 100% 100%;
+    
+    
+
+}
+
+.clint-read{
+    width: 40%;
+    height: 400px;
+    position: relative;
+    bottom: 500px;
+    margin-left: 50px;
+}
+.clint-main{
+    width: 100%;
+    height: 600px;
+}
+.clinti{
+    width: 550px;
+    height: 250px;
+    position: relative ;
+    top: 200px;
+    margin-left: 800px;
+
+}
+.read{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    /* bottom: 500px; */
+    background-color: rgb(187, 241, 241);
+}
+.read-sub{
+    width: 50%;
+    position: relative;
+    top: 50px;
+    margin-left: 100px;
+}
+.imgfac{
+    display: flex;
+    margin-left: 70px;
+    position: relative;
+    top: 120px;
+}
+.img-part{
+    margin-right: 70px;
+}
+
+.pro{
+    height: 260px;
+    width: 400px;
+}
+.last{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(201, 154, 244);
+}
+.last{
+display: flex;
+}
+.lastdiv{
+    width: 48%;
+}
+.lastwr{
+    position: relative;
+    top: 43px;
+    margin-left: 150px;
+}
+.lastimg{
+    position: relative;
+    margin-top: 50px;
+}
+
+#sea{
+    padding: 13px;
+    width: 300px;
+}
+.lastr{
+    position: relative;
+    right: 100px;
+}
+
